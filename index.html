@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jak-en-Pon</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <script defer src="assets/script/main.js"></script>
+    <section class="game">
+        <!-- <h1>jak-en-pon</h1> -->
+        <section class="bot-input">
+            <span id="botThrow" class="bot-throw"></span>
+         </section> <!-- bot-input -->
+       
+       <!-- judge -->
+       <section class="match-board">
+            <span id="botScore">0</span>
+            <section class="matchAbout">
+                <span id="matchResult"></span>
+                <ul id="matchHistory" class="matchHistory">
+
+                </ul>
+            </section>
+            <span id="playerScore">0</span>
+    
+       </section>
+
+       <section class="player-input">
+        <section class="throw-rock display-player" >
+            <span></span>
+            <img src="/assets/images/bg.png" id="displayPlayerThrow" >
+        </section>
+
+        <section class="player-buttons">
+            <button id="playerRock" value="rock" onclick="rockRound()" class="btn">Rock</button>
+            <button id="playerPaper" value="paper" onclick="paperRound()" class="btn">Paper</button>
+            <button id="playerScissors" value="scissors" onclick="scissorsRound()" class="btn">Scissors</button>
+         </section>
+   </section>  <!-- player-input -->
+
+
+    </section> <!-- main section -->
+</body>
+</html>
+
+<!-- SUGGESTIONS 
+Number of matches incurred
+match history
+
+vertical match
+-->

@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Slackey', cursive;
+    
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
+
+  .game {
+    background-color: rgb(51, 22, 48);
+    height: 100vh;
+  }
+
+  .bot-input {
+    /* border: 2px solid yellow; */
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: whitesmoke;
+    font-size: xx-large;
+  }
+    .bot-rock {
+        height: 150px;
+        width: auto;
+        margin: 0 40%;
+    }
+
+    .bot-paper {
+        height: 150px;
+        width: auto;
+        margin: 0 40%;
+    }
+
+    .bot-scissors {
+        height: 150px;
+        width: auto;
+        margin: 0 40%;
+    }
+
+  .match-board {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    color: whitesmoke;
+    font-size: xx-large;
+
+  }
+
+    .matchAbout {
+        display: flex;
+        color: whitesmoke;
+        font-size: xx-large;
+    }
+
+  .player-input {
+    /* border: 2px solid rgb(149, 149, 6); */
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(245, 245, 245, 0) ,rgba(151, 14, 205, 0.592));
+ 
+  }
+
+    .btn {
+        height: 50px;
+        width: 120px;
+    }
+
+
+    .display-player-throw {
+        height: 150px;
+        width: 200px;
+        border: 2px solid blue;
+        background: url("/assets/images/bg.png");
+        background-repeat: no-repeat;
+    }
+
+    .throw-rock {
+      height: 150px;
+      width: auto;
+      border: 2px green;
+      display: none;
+      
+    }
+
+    .paper-throw {
+      height: 150px;
+      width: auto;
+      margin: 0 40%;
+    }
+
+    .scissors-throw {
+      height: 150px;
+      width: auto;
+      margin: 0 40%;
+    }
