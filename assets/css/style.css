@@ -12,6 +12,10 @@
     height: 100vh;
   }
 
+  .bot {
+    opacity: 75%;
+  }
+
   .bot-input {
     /* border: 2px solid yellow; */
     height: 40vh;
@@ -20,7 +24,7 @@
     align-items: center;
 
     color: whitesmoke;
-    font-size: xx-large;
+    font-size: large;
   }
     .bot-rock {
         height: 150px;
@@ -47,7 +51,6 @@
     align-items: center;
 
     color: whitesmoke;
-    font-size: xx-large;
 
   }
 
@@ -56,6 +59,10 @@
         color: whitesmoke;
         font-size: xx-large;
     }
+
+  .player {
+    opacity: 75%;
+  }
 
   .player-input {
     /* border: 2px solid rgb(149, 149, 6); */
