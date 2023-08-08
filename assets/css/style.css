@@ -24,7 +24,8 @@
     align-items: center;
 
     color: whitesmoke;
-    font-size: large;
+    font-size: xx-large;
+    background: linear-gradient(rgba(255, 217, 0, 0.397), rgba(0, 0, 0, 0));
   }
     .bot-rock {
         height: 150px;
